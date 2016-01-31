@@ -27,7 +27,7 @@
         }
       })();
       return $translateProvider.useStaticFilesLoader({
-        prefix: '/translations/lang-',
+        prefix: 'translations/lang-',
         suffix: '.json'
       }).fallbackLanguage('en').preferredLanguage(language).useSanitizeValueStrategy('sanitizeParameters');
     }
