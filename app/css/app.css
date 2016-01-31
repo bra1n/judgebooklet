@@ -6,6 +6,8 @@ body, html {
   box-sizing: border-box;
   width: 100%;
   overflow: hidden;
+  font-size: 1em;
+  font-size: 0.85vw;
 }
 
 body {
@@ -33,7 +35,7 @@ ng-include {
   text-align: center;
   top: 50%;
   height: 50%;
-  margin-top: -17%;
+  margin-top: -25vh;
   z-index: 10;
 }
 
@@ -91,6 +93,7 @@ ng-include {
   display: flex;
   align-items: center;
   background: white;
+  overflow: hidden;
   position: relative;
 }
 
@@ -124,7 +127,7 @@ h1 {
   text-align: center;
 }
 
-/* Printing */
+/************* Printing *************/
 @media print {
   @page {
     size: landscape;
