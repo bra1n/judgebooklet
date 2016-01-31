@@ -15,21 +15,21 @@
       language = (function() {
         switch ((navigator.language || navigator.userLanguage).toLowerCase().substr(0, 2)) {
           case "fr":
-            return "fr_FR";
+            return "fr";
           case "de":
-            return "de_DE";
+            return "de";
           case "es":
-            return "es_ES";
+            return "es";
           case "it":
-            return "it_IT";
+            return "it";
           default:
-            return "en_GB";
+            return "en";
         }
       })();
       return $translateProvider.useStaticFilesLoader({
         prefix: '/translations/lang-',
         suffix: '.json'
-      }).fallbackLanguage('en_GB').preferredLanguage(language).useSanitizeValueStrategy('sanitizeParameters');
+      }).fallbackLanguage('en').preferredLanguage(language).useSanitizeValueStrategy('sanitizeParameters');
     }
   ]);
 

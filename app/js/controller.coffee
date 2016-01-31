@@ -1,5 +1,5 @@
 angular.module 'judgebooklet.controller', []
-.controller 'IndexCtrl', ['$scope', ($scope) ->
+.controller 'IndexCtrl', ['$scope', '$translate', ($scope, $translate) ->
   $scope.pageNumbers = [0..7]
   $scope.pageList = [
     "turn"
@@ -21,6 +21,11 @@ angular.module 'judgebooklet.controller', []
   ]
   $scope.pages = ["turn", "layers"]
   $scope.lastDrag = false
+  $scope.language = $translate.use()
+  $scope.languages = ["fr", "de", "es", "it", "en"]
+
+  $scope.changeLanguage = ->
+    $translate.use $scope.language
   $scope.pageDrop = (data, page) ->
     unless $scope.lastDrag is false
       $scope.pages[$scope.lastDrag] = $scope.pages[page]

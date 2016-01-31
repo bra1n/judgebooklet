@@ -14,16 +14,16 @@ angular.module 'judgebooklet', [
 .config ['$translateProvider', ($translateProvider) ->
 # translations
     language = switch (navigator.language or navigator.userLanguage).toLowerCase().substr(0,2)
-      when "fr" then "fr_FR"
-      when "de" then "de_DE"
-      when "es" then "es_ES"
-      when "it" then "it_IT"
-      else "en_GB"
+      when "fr" then "fr"
+      when "de" then "de"
+      when "es" then "es"
+      when "it" then "it"
+      else "en"
     $translateProvider
     .useStaticFilesLoader
         prefix: '/translations/lang-',
         suffix: '.json'
-    .fallbackLanguage 'en_GB'
+    .fallbackLanguage 'en'
     .preferredLanguage language
     .useSanitizeValueStrategy 'sanitizeParameters'
 ]

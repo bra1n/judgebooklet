@@ -12,6 +12,8 @@ body {
   padding: 10px 10px 10px 22%;
 }
 
+a { text-decoration: underline; }
+
 ng-include {
   box-sizing: border-box;
   width: 100%;
@@ -35,6 +37,10 @@ ng-include {
   z-index: 10;
 }
 
+#dialog .options { display: flex; }
+#dialog .options select:first-child { width: 70%; }
+#dialog .options select:last-child { width: 30%; }
+
 #dialog .page {
   height: 100%;
   background: white;
@@ -46,6 +52,7 @@ ng-include {
   align-items: center;
   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
   text-align: left;
+  overflow: hidden;
 }
 
 #dialog .page.draggable,
@@ -74,7 +81,7 @@ ng-include {
   flex-wrap: wrap;
 }
 
-#booklet li {
+#booklet > li {
   box-sizing: border-box;
   width: 25%;
   height: 50%;
@@ -113,9 +120,39 @@ ng-include {
 h1 {
   font-size: 1em;
   font-weight: bold;
-  margin: 0;
-  margin-bottom: 0.5em;
+  margin: 0.5em 0;
   text-align: center;
+}
+
+/* Printing */
+@media print {
+  @page {
+    size: landscape;
+    margin: 2mm 2mm 2mm 2mm;
+  }
+  body {
+    padding: 0;
+    font-size: 9pt;
+    background: none;
+  }
+  #dialog {
+    display: none;
+  }
+  #booklet {
+    border: none;
+    background: none;
+  }
+
+  #booklet > li {
+    background: none;
+    border: none;
+  }
+  #booklet > li:nth-child(n+5) ng-include {
+    transform: rotate(180deg);
+  }
+  #booklet li:hover > button {
+    display: none;
+  }
 }
 
 /********** Pages ***********/
@@ -126,7 +163,7 @@ h1 {
 
 .page-turn .legend {
   position: absolute;
-  background: #DEEBF7;
+  background-color: #DEEBF7 !important;
   padding: 0.25em 0.5em;
   right: 1em;
   font-size: 80%;
@@ -134,6 +171,7 @@ h1 {
   border: 1px solid #84B4E1;
   top: 1em;
   text-align: right;
+  -webkit-print-color-adjust: exact;
 }
 
 .page-turn .legend .priority {
@@ -147,6 +185,7 @@ h1 {
   top: 0;
   vertical-align: middle;
   left: 0;
+  min-height: 4px;
 }
 
 .page-turn table {
@@ -166,20 +205,22 @@ h1 {
   display: block;
   border: 1px solid #F8CA10;
   box-sizing: border-box;
-  height: 32px;
+  height: 2em;
   padding: 0 0.5em;
   font-size: 90%;
   border-left: none;
-  background: linear-gradient(to left,rgba(248, 202, 16, 0.3) 80%,#fff);
+  background: linear-gradient(to left,rgba(248, 202, 16, 0.3) 80%,#fff) !important;
   text-align: right;
+  -webkit-print-color-adjust: exact;
 }
 
 .page-turn .arrow {
   min-width: 1.5em;
-  background: #F8CA10;
+  background: #F8CA10 !important;
   width: 1.5em;
   border-color: #F8CA10;
   padding: 0;
+  -webkit-print-color-adjust: exact;
 }
 
 .page-turn .arrow:before,
@@ -220,27 +261,29 @@ h1 {
 }
 
 .page-turn tbody.main .arrow {
-  background: #E88024;
+  background: #E88024 !important;
   border-color: #E88024;
 }
 
 .page-turn tbody.main b {
   border-color: #E88024;
-  background: linear-gradient(to left,rgba(232, 128, 36, 0.3) 80%,#fff);
+  background: linear-gradient(to left,rgba(232, 128, 36, 0.3) 80%,#fff) !important;
+  -webkit-print-color-adjust: exact;
 }
 
 .page-turn tbody.combat .arrow {
   border-color: red;
-  background: red;
+  background: #f00 !important;
 }
 
 .page-turn tbody.combat b {
   border-color: red;
-  background: linear-gradient(to left,rgba(255,0,0,0.3) 80%,#fff);
+  background: linear-gradient(to left,rgba(255,0,0,0.3) 80%,#fff) !important;
+  -webkit-print-color-adjust: exact;
 }
 
 .page-turn .priority {
-  background: white;
+  background: #fff !important;
   width: 0.75em;
   height: 0.75em;
   display: inline-block;
@@ -254,7 +297,7 @@ h1 {
 
 .page-turn .tba:before {
   content: " ";
-  background: white;
+  background: #fff !important;
   width: 1.25em;
   height: 0.25em;
   position: absolute;
@@ -288,4 +331,77 @@ h1 {
 
 .page-turn tbody.combat td:first-child:after {
   border-color: red;
+}
+
+/* Layers */
+.page-layers {
+  line-height: 1;
+  font-size: 80%;
+}
+.page-layers ol {
+  padding: 0;
+  counter-reset: item;
+  list-style-type: none;
+  margin-bottom: 1.5em;
+  font-size: 100%;
+}
+
+.page-layers ol li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.page-layers ol > li:before {
+  content: '(' counter(item, decimal) ') ';
+  counter-increment: item;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.page-layers ol ol {
+  position: absolute;
+  right: 0;
+  top: -3.05em;
+  padding: 0em 1em 0em 0.5em;
+  border-left: 0.2em solid black;
+}
+
+.page-layers ol ol:before {
+  content: " ";
+  position: absolute;
+  right: 100%;
+  top: 2.85em;
+  width: 0;
+  height: 0;
+  border: 0.75em solid transparent;
+  border-right-color: black;
+  display: block;
+}
+
+.page-layers ol ol:after {
+  content: " ";
+  position: absolute;
+  right: 100%;
+  top: 3em;
+  width: 0;
+  height: 0;
+  border: 0.6em solid transparent;
+  border-right-color: white;
+  display: block;
+}
+
+.page-layers ol ol > li:before {
+  content: '(7' counter(item, lower-alpha) ') ';
+}
+
+.page-layers ul {
+  padding-left: 10px;
+  font-size: 90%;
+  margin-bottom: 0.5em;
+  list-style-type: disc;
+}
+
+.page-layers b,
+.page-layers a {
+  font-size: 90%;
 }
