@@ -1,0 +1,11 @@
+{
+  "name": "judgebooklet",
+  "private": true,
+  "version": "0.0.1",
+  "description": "The Judge Booklet",
+  "repository": "https://github.com/bra1n/judgebooklet",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.3.1"
+  }
+}

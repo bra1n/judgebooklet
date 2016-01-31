@@ -1,0 +1,291 @@
+/* app css stylesheet */
+
+body, html {
+  background: gray;
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  padding: 10px 10px 10px 22%;
+}
+
+ng-include {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1em;
+  position: relative;
+}
+
+#content {
+  height: 100%;
+  position: relative;
+}
+
+#dialog {
+  position: absolute;
+  left: -27%;
+  width: 25%;
+  text-align: center;
+  top: 50%;
+  height: 50%;
+  margin-top: -17%;
+  z-index: 10;
+}
+
+#dialog .page {
+  height: 100%;
+  background: white;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+  margin-top: 10px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  text-align: left;
+}
+
+#dialog .page.draggable,
+#booklet li.draggable {
+  cursor: move;
+}
+
+#dialog .page.draggable:hover,
+#booklet li.draggable:hover {
+  background: #ddd;
+}
+
+#dialog .page > span { width: 100%;padding: 1em;font-weight: bold;text-align: center;}
+
+#booklet {
+  height: 100%;
+  width: 100%;
+  background: #ddd;
+  list-style-type: none;
+  padding: 0;
+  margin:  0;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3), inset 5px 5px 15px rgba(0,0,0,0.3);
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#booklet li {
+  box-sizing: border-box;
+  width: 25%;
+  height: 50%;
+  border: 1px solid #ddd;
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  background: white;
+  position: relative;
+}
+
+#booklet li.drag-enter {
+  background: #ccc;
+}
+
+#booklet li > button {
+  position: absolute;
+  left: 50%;
+  width: 5em;
+  bottom: 1em;
+  margin-left: -2.5em;
+  z-index: 2000;
+  display: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+#booklet li:hover > button {
+  display: block;
+}
+
+#booklet li.dragging:hover > button {
+  display: none;
+}
+
+h1 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+/********** Pages ***********/
+/* Turn Structure */
+.page-turn h1 {
+  text-align: left;
+}
+
+.page-turn .legend {
+  position: absolute;
+  background: #DEEBF7;
+  padding: 0.25em 0.5em;
+  right: 1em;
+  font-size: 80%;
+  box-sizing: border-box;
+  border: 1px solid #84B4E1;
+  top: 1em;
+  text-align: right;
+}
+
+.page-turn .legend .priority {
+  position: relative;
+  margin-left: 0;
+}
+
+.page-turn .legend .tba:before {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  vertical-align: middle;
+  left: 0;
+}
+
+.page-turn table {
+  width: 100%;
+  line-height: 2em;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.page-turn td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.page-turn b {
+  display: block;
+  border: 1px solid #F8CA10;
+  box-sizing: border-box;
+  height: 32px;
+  padding: 0 0.5em;
+  font-size: 90%;
+  border-left: none;
+  background: linear-gradient(to left,rgba(248, 202, 16, 0.3) 80%,#fff);
+  text-align: right;
+}
+
+.page-turn .arrow {
+  min-width: 1.5em;
+  background: #F8CA10;
+  width: 1.5em;
+  border-color: #F8CA10;
+  padding: 0;
+}
+
+.page-turn .arrow:before,
+.page-turn .arrow:after {
+  position: absolute;
+  content: " ";
+  height: 0;
+  width: 0;
+  z-index: 1000;
+  margin-top: 0.5em;
+}
+
+.page-turn .arrow:before {
+  margin-left: -0.25em;
+  border: 1em solid transparent;
+  border-top-color: #fff;
+}
+
+.page-turn .arrow:after {
+  border: 0.75em solid transparent;
+  border-top-color: inherit;
+}
+
+.page-turn tr:last-child .arrow:before {
+  margin-left: -0.75em;
+  border: 1.3em solid transparent;
+  border-left-width: 1.5em;
+  border-right-width: 1.5em;
+  border-top-color: #fff;
+}
+
+.page-turn tr:last-child .arrow:after {
+  margin-left: -0.5em;
+  border: 1em solid transparent;
+  border-left-width: 1.25em;
+  border-right-width: 1.25em;
+  border-top-color: inherit;
+}
+
+.page-turn tbody.main .arrow {
+  background: #E88024;
+  border-color: #E88024;
+}
+
+.page-turn tbody.main b {
+  border-color: #E88024;
+  background: linear-gradient(to left,rgba(232, 128, 36, 0.3) 80%,#fff);
+}
+
+.page-turn tbody.combat .arrow {
+  border-color: red;
+  background: red;
+}
+
+.page-turn tbody.combat b {
+  border-color: red;
+  background: linear-gradient(to left,rgba(255,0,0,0.3) 80%,#fff);
+}
+
+.page-turn .priority {
+  background: white;
+  width: 0.75em;
+  height: 0.75em;
+  display: inline-block;
+  position: absolute;
+  margin-left: 0.375em;
+  border-radius: 50%;
+  z-index: 1001;
+  border: 1px solid #404040;
+  box-sizing: border-box;
+}
+
+.page-turn .tba:before {
+  content: " ";
+  background: white;
+  width: 1.25em;
+  height: 0.25em;
+  position: absolute;
+  top: -0.4em;
+  left: -0.3125em;
+  border: 1px solid #404040;
+  box-sizing: border-box;
+  display: block;
+}
+
+.page-turn td:first-child {
+  font-size: 90%;
+  position: relative;
+  padding-left: 0.25em;
+}
+
+.page-turn td:first-child:after {
+  content: " ";
+  width: 90%;
+  height: 2px;
+  border-bottom: 1px dashed #F8CA10;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+}
+
+.page-turn tbody.main td:first-child:after {
+  display: none;
+}
+
+.page-turn tbody.combat td:first-child:after {
+  border-color: red;
+}

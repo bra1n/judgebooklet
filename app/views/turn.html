@@ -1,0 +1,76 @@
+<h1>Turn Structure</h1>
+<div class="legend">
+  <span class="priority"></span>
+  <span translate="turn.priority">Priority</span><br>
+  <span class="tba"></span>
+  <span translate="turn.tba">Turn-based Action</span>
+</div>
+<table>
+  <tbody class="beginning">
+    <tr>
+      <td translate="turn.untap">Untap</td>
+      <td class="arrow"></td>
+      <td rowspan="3"><b translate="turn.beginning">Beginning Phase</b></td>
+    </tr>
+    <tr>
+      <td translate="turn.upkeep">Upkeep</td>
+      <td class="arrow"><span class="priority"></span></td>
+    </tr>
+    <tr>
+      <td translate="turn.draw">Draw</td>
+      <td class="arrow"><span class="priority tba"></span></td>
+    </tr>
+  </tbody>
+  <tbody class="main">
+    <tr>
+      <td></td>
+      <td class="arrow"><span class="priority"></span></td>
+      <td><b translate="turn.1stmain">1st Main Phase</b></td>
+    </tr>
+  </tbody>
+  <tbody class="combat">
+    <tr>
+      <td translate="turn.combat1">Beginning of Combat</td>
+      <td class="arrow"><span class="priority"></span></td>
+      <td rowspan="6"><b translate="turn.combat">Combat Phase</b></td>
+    </tr>
+    <tr>
+      <td translate="turn.combat2">Declare attackers</td>
+      <td class="arrow"><span class="priority tba"></span></td>
+    </tr>
+    <tr>
+      <td translate="turn.combat3">Declare blockers</td>
+      <td class="arrow"><span class="priority tba"></span></td>
+    </tr>
+    <tr>
+      <td translate="turn.combat4">1st Combat Damage</td>
+      <td class="arrow"><span class="priority tba"></span></td>
+    </tr>
+    <tr>
+      <td translate="turn.combat5">2nd Combat Damage</td>
+      <td class="arrow"><span class="priority tba"></span></td>
+    </tr>
+    <tr>
+      <td translate="turn.combat6">End of Combat</td>
+      <td class="arrow"><span class="priority"></span></td>
+    </tr>
+  </tbody>
+  <tbody class="main">
+    <tr>
+      <td></td>
+      <td class="arrow"><span class="priority"></span></td>
+      <td><b translate="turn.2ndmain">2nd Main Phase</b></td>
+    </tr>
+  </tbody>
+  <tbody class="end">
+    <tr>
+      <td translate="turn.end2">End</td>
+      <td class="arrow"><span class="priority"></span></td>
+      <td rowspan="2"><b translate="turn.end">End Phase</b></td>
+    </tr>
+    <tr>
+      <td translate="turn.cleanup">Cleanup</td>
+      <td class="arrow"></td>
+    </tr>
+  </tbody>
+</table>

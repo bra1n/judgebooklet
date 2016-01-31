@@ -1,0 +1,17 @@
+{
+  "name": "judgebooklet",
+  "description": "The Judge Booklet",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bra1n/judgebooklet",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "html5-boilerplate": "~5.2.0",
+    "ngdraggable": "fatlinesofcode/ngDraggable#92bacff5caeb87413fecf641b31cde8b37322bae",
+    "angular-translate": "^2.9.0",
+    "angular-translate-loader-static-files": "^2.9.0"
+  }
+}
