@@ -408,3 +408,20 @@ h1 {
 .page-layers a {
   font-size: 90%;
 }
+
+/* Abilities */
+.page-abilities {
+  font-size: 90%;
+  line-height: 1;
+}
+
+.page-abilities ol,
+.page-abilities ul {
+  font-size: 80%;
+  padding-left: 10px;
+}
+
+.page-abilities h1,
+.page-abilities b {
+  font-size: 90%;
+}

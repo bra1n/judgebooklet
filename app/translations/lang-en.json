@@ -76,5 +76,31 @@
     "priority4": "If both players pass priority once, resolve the first object on the stack or pass to the next step.",
     "documents": "Documents:",
     "ask": "Ask a Rules Questions"
+  },
+  "abilities": {
+    "cast": "Casting a Spell/Activating an Ability (CR 601 - 602)",
+    "cast1": "Announce, put on the stack",
+    "cast2": "Choose mode(s), announce value of variable costs, intent to play alternate costs, additional and special costs, and how hybrid & Phyrexian mana will be paid.",
+    "cast3": "Choose targets and effect per target.",
+    "cast4": "Determine costs. (taxes, then reductions, then Trinisphere)",
+    "cast5": "Play mana abilities.",
+    "cast6": "Pay costs.",
+    "resolve": "Resolving Spells/Activated Abilities (CR 608)",
+    "resolve1": "Determine targets legality. (countered if no legal target left)",
+    "resolve2": "Follow instructions in order.",
+    "resolve3": "Determine choices not made on announcement.",
+    "resolve4": "If actions require choices from multiple players, make them in APNAP order, then resolve those actions simultaneously.",
+    "resolve5": "Use Last Known Info as necessary.",
+    "resolve6": "Do as much as you can.",
+    "resolve7": "Put into play/graveyard as appropriate.",
+    "trigger": "Handling Triggered Abilities (CR 603)",
+    "keywords": "Keywords: At, When, Whenever",
+    "trigger1": "Active player puts their triggered abilities on the stack in any order.",
+    "trigger2": "Then in turn order, Non-Active Players do the same.",
+    "trigger3": "Resolution in order 'last in, first out'.",
+    "mana": "Mana Abilities (CR 605)",
+    "mana1": "Activated / Triggered ability that adds mana and does not target.",
+    "mana2": "Does not use the stack (we can’t respond to them.)",
+    "mana3": "To activate: have priority, when a spell is cast or an ability is activated, or when an effect asks to pay a mana cost."
   }
 }
