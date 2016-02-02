@@ -15,6 +15,7 @@ body {
 }
 
 a { text-decoration: underline; }
+ul { list-style-type: disc; }
 
 ng-include {
   box-sizing: border-box;
@@ -401,7 +402,6 @@ h1 {
   padding-left: 10px;
   font-size: 90%;
   margin-bottom: 0.5em;
-  list-style-type: disc;
 }
 
 .page-layers b,
@@ -424,4 +424,48 @@ h1 {
 .page-abilities h1,
 .page-abilities b {
   font-size: 90%;
+}
+
+/* Shortcuts */
+.page-shortcuts {
+  font-size: 90%;
+  line-height: 1;
+}
+
+.page-shortcuts ul {
+  padding-left: 10px;
+  font-size: 90%;
+  margin-top: 0.5em;
+}
+
+/* Penalties */
+.page-penalties {
+  font-size: 75%;
+  line-height: 1;
+}
+
+.page-penalties table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.page-penalties td {
+  padding: 0.2em 0.5em;
+  border: 1px solid black;
+}
+
+.page-penalties td:last-child {
+  text-align: center;
+  background-color: #eee !important;
+  -webkit-print-color-adjust: exact;
+}
+
+
+.page-penalties td[colspan] {
+  background-color: black !important;
+  color: #fff !important;
+  -webkit-print-color-adjust: exact;
+  font-weight: bold;
+  text-align: left;
 }
