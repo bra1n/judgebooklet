@@ -3,8 +3,8 @@
   angular.module('judgebooklet.controller', []).controller('IndexCtrl', [
     '$scope', '$translate', function($scope, $translate) {
       $scope.pageNumbers = [0, 1, 2, 3, 4, 5, 6, 7];
-      $scope.pageList = ["turn", "layers", "abilities", "shortcuts", "penalties", "jar", "information", "announcements", "gpe", "competitive", "competitive2", "sealed", "2hg", "commander", "reviews", "cheating"];
-      $scope.pages = ["turn", "layers", "abilities", "shortcuts", "penalties"];
+      $scope.pageList = ["turn", "layers", "abilities", "shortcuts", "penalties", "jar", "te", "announcements", "gpe", "competitive", "competitive2", "sealed", "2hg", "commander", "reviews", "cheating"];
+      $scope.pages = ["turn", "layers", "abilities", "shortcuts", "penalties", "jar", "te", "announcements"];
       $scope.lastDrag = false;
       $scope.language = $translate.use();
       $scope.languages = ["fr", "de", "es", "it", "en"];

@@ -8,7 +8,7 @@ angular.module 'judgebooklet.controller', []
     "shortcuts"
     "penalties"
     "jar"
-    "information"
+    "te"
     "announcements"
     "gpe"
     "competitive"
@@ -19,7 +19,7 @@ angular.module 'judgebooklet.controller', []
     "reviews"
     "cheating"
   ]
-  $scope.pages = ["turn", "layers", "abilities", "shortcuts", "penalties"]
+  $scope.pages = ["turn", "layers", "abilities", "shortcuts", "penalties", "jar", "te", "announcements"]
   $scope.lastDrag = false
   $scope.language = $translate.use()
   $scope.languages = ["fr", "de", "es", "it", "en"]
