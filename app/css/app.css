@@ -128,10 +128,16 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+
 /************* Printing *************/
 @media print {
   @page {
-    size: landscape;
+    size: A4 landscape;
     margin: 2mm 2mm 2mm 2mm;
   }
   body {
@@ -156,6 +162,18 @@ h1 {
   }
   #booklet li:hover > button {
     display: none;
+  }
+}
+
+/* style sheet for "A4" printing */
+@media print and (width: 21cm) and (height: 29.7cm) {
+  @page {
+  }
+}
+
+/* style sheet for "letter" printing */
+@media print and (width: 8.5in) and (height: 11in) {
+  @page {
   }
 }
 
@@ -440,14 +458,16 @@ h1 {
 
 /* Penalties */
 .page-penalties {
-  font-size: 75%;
+  font-size: 80%;
   line-height: 1;
+  text-align: center;
 }
 
 .page-penalties table {
   width: 100%;
   border: 1px solid black;
   border-collapse: collapse;
+  text-align: left;
 }
 
 .page-penalties td {
@@ -455,17 +475,73 @@ h1 {
   border: 1px solid black;
 }
 
-.page-penalties td:last-child {
+.page-penalties tbody td:last-child {
   text-align: center;
   background-color: #eee !important;
   -webkit-print-color-adjust: exact;
 }
 
-
-.page-penalties td[colspan] {
+.page-penalties tbody td[colspan] {
   background-color: black !important;
   color: #fff !important;
   -webkit-print-color-adjust: exact;
   font-weight: bold;
   text-align: left;
+}
+
+/* JAR */
+.page-jar {
+  line-height: 1;
+  font-size: 80%;
+}
+
+.page-jar ul {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* Tournament Errors */
+.page-te {
+  line-height: 1;
+  font-size: 90%;
+}
+
+.page-te ul {
+  padding-left: 10px;
+}
+
+.page-te > ul {
+  font-size: 75%;
+  margin-bottom: 10px;
+}
+
+.page-te > b,
+.page-te > i {
+  font-size: 90%;
+}
+
+/* Announcements */
+.page-announcements {
+  line-height: 1;
+  font-size: 90%;
+}
+
+.page-announcements ul {
+  padding-left: 10px;
+}
+
+.page-announcements table {
+  float: right;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+.page-announcements table thead td {
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.page-announcements table td {
+  padding: 0 5px;
 }
