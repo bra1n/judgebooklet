@@ -16,6 +16,10 @@ body {
 
 a { text-decoration: underline; }
 ul { list-style-type: disc; }
+img {
+  max-width: 100%;
+  margin: 5px 0;
+}
 
 ng-include {
   box-sizing: border-box;
@@ -23,6 +27,8 @@ ng-include {
   padding: 1em;
   position: relative;
 }
+
+.center { text-align: center; }
 
 #content {
   height: 100%;
@@ -155,7 +161,6 @@ h2 {
 
   #booklet > li {
     background: none;
-    border: none;
   }
   #booklet > li:nth-child(n+5) ng-include {
     transform: rotate(180deg);
@@ -522,8 +527,7 @@ h2 {
 
 /* Announcements */
 .page-announcements {
-  line-height: 1;
-  font-size: 90%;
+  font-size: 75%;
 }
 
 .page-announcements ul {
@@ -544,4 +548,53 @@ h2 {
 
 .page-announcements table td {
   padding: 0 5px;
+}
+
+/* GPEs */
+.page-gpe {
+  line-height: 1;
+  font-size: 90%;
+}
+
+.page-gpe ul {
+  padding-left: 10px;
+  font-size: 75%;
+  margin-bottom: 10px;
+}
+
+.page-gpe .steps {
+  display: flex;
+}
+
+.page-gpe .steps span {
+  flex-grow: 1;
+}
+
+/* Competitive */
+.page-competitive, .page-competitive2 {
+  line-height: 1;
+  font-size: 90%;
+}
+
+.page-competitive ul, .page-competitive2 ul {
+  padding-left: 10px;
+  font-size: 80%;
+  margin-bottom: 10px;
+}
+
+/* Sealed */
+.page-sealed {
+  line-height: 1;
+  font-size: 80%;
+}
+
+.page-sealed ul {
+  padding-left: 10px;
+  font-size: 80%;
+  margin-bottom: 10px;
+}
+
+.page-sealed .image {
+  list-style-type: none;
+  margin-left: -10px;
 }
