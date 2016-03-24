@@ -16,6 +16,10 @@ body {
 
 a { text-decoration: underline; }
 ul { list-style-type: disc; }
+img {
+  max-width: 100%;
+  margin: 5px 0;
+}
 
 ng-include {
   box-sizing: border-box;
@@ -576,4 +580,21 @@ h2 {
   padding-left: 10px;
   font-size: 80%;
   margin-bottom: 10px;
+}
+
+/* Sealed */
+.page-sealed {
+  line-height: 1;
+  font-size: 80%;
+}
+
+.page-sealed ul {
+  padding-left: 10px;
+  font-size: 80%;
+  margin-bottom: 10px;
+}
+
+.page-sealed .image {
+  list-style-type: none;
+  margin-left: -10px;
 }

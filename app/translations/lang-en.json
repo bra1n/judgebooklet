@@ -293,5 +293,24 @@
     "rounds5": "Before the last round, remind players of risks of bribery.",
     "rounds6": "Prepare the Top 8 (tables for draft, construction and games) and define the policy for the spectators.",
     "rounds7": "Debrief during the Top 8/at the end of the tournament."
+  },
+  "sealed": {
+    "swap": "Swap in Sealed Tournament",
+    "swap1": "Distribute product and decklist. Tell players to not open product. One side have product with letter A, the other with letter B.",
+    "swap2": "Player A opens their boosters while Player B watches and places them in a single pile in front of the other player. Repeat process for B.",
+    "swap3": "Players A registers Player B’s pool. Player B registers Player A’s pool.",
+    "swap4": "Players return pools and lists back to the owner; construction starts.",
+    "pairings": "Pairings in Playoff",
+    "pairings1": "If draft, randomize seating. Otherwise, use standings.",
+    "pairings2": "Higher rank chooses the starting player.",
+    "suddendeath": "Sudden Death",
+    "suddendeath1": "In single elimination part of a tournament:",
+    "suddendeath2": "At the end of round, proceed to (5) additional turns",
+    "suddendeath3": "Then, if draw, the higher amount of life wins",
+    "suddendeath4": "If same life, first change defines the winner (higher life wins)",
+    "drawing": "Drawing or Conceding Legally",
+    "drawing1": "Decision <b>freely taken by both parties,</b> no coercion of any kind;",
+    "drawing2": "<b>No incentive was added</b> to have a player agree to concede/draw;",
+    "drawing3": "<b>No other method than playing</b> the match is used."
   }
 }
