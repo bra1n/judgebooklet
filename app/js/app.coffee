@@ -14,6 +14,7 @@ angular.module 'judgebooklet', [
 .config ['$translateProvider', ($translateProvider) ->
 # translations
     language = switch (navigator.language or navigator.userLanguage).toLowerCase().substr(0,2)
+      when "fi" then "fi"
       when "fr" then "fr"
       when "de" then "de"
       when "es" then "es"
