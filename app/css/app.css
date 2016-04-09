@@ -140,6 +140,14 @@ h2 {
   margin: 0.5em 0;
 }
 
+h3 {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0.5em 0;
+  text-decoration: underline;
+  text-align: center;
+}
+
 /************* Printing *************/
 @media print {
   @page {
@@ -623,4 +631,60 @@ h2 {
 
 .page-commander ul {
   padding-left: 10px;
+}
+
+/* Reviews */
+.page-reviews {
+  line-height: 1;
+  font-size: 70%;
+}
+
+.page-reviews ul {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.page-reviews td { width: 50%; }
+
+.page-reviews td[colspan] ul {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 10px;
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+  column-count: 2;
+  column-gap: 10px;
+}
+
+.page-reviews b {
+  display: block;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+/* Cheating, Backups & Golden Rules */
+.page-cheating {
+  line-height: 1;
+  font-size: 75%;
+}
+
+.page-cheating ul {
+  padding-left: 10px;
+
+}
+
+.page-cheating div {
+  padding: 0.5em;
+  border: 1px solid black;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 0.5em;
+  -webkit-column-rule: 1px solid black;
+  font-size: 80%;
+}
+
+.page-cheating div span { 
+  display: block;
+  text-align: center;
+  white-space: nowrap;
 }
