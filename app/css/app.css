@@ -598,3 +598,29 @@ h2 {
   list-style-type: none;
   margin-left: -10px;
 }
+
+/* 2 Headed Giant */
+.page-2hg {
+  line-height: 1;
+  font-size: 75%;
+}
+
+.page-2hg ul {
+  padding-left: 10px;
+  margin-bottom: 0.5em;
+  font-size: 90%;
+}
+
+.page-2hg h2 {
+  margin: 0.5em 0;
+}
+
+/* Commander */
+.page-commander {
+  line-height: 1;
+  font-size: 80%;
+}
+
+.page-commander ul {
+  padding-left: 10px;
+}

@@ -14,6 +14,8 @@
       var language;
       language = (function() {
         switch ((navigator.language || navigator.userLanguage).toLowerCase().substr(0, 2)) {
+          case "fi":
+            return "fi";
           case "fr":
             return "fr";
           case "de":

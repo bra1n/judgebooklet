@@ -12,8 +12,8 @@
     "competitive": "Head-Judging at Competitive Pt. 1",
     "competitive2": "Head-Judging at Competitive Pt. 2",
     "sealed": "Sealed Procedure and Playoff",
-    "2hg": "Two Headed Giant",
-    "commander": "Duel Commander",
+    "2hg": "Two Headed Giant (2HG)",
+    "commander": "Commander",
     "reviews": "Reviews",
     "cheating": "Cheating, Golden Rules & Links"
   },
@@ -21,6 +21,7 @@
     "pages": "Available Pages",
     "select": "Select a page from the dropdown and drag it into your booklet. You can rearrange and delete pages of the booklet.",
     "languages": {
+      "fi": "Finnish",
       "fr": "French",
       "de": "German",
       "es": "Spanish",
@@ -312,5 +313,44 @@
     "drawing1": "Decision <b>freely taken by both parties,</b> no coercion of any kind;",
     "drawing2": "<b>No incentive was added</b> to have a player agree to concede/draw;",
     "drawing3": "<b>No other method than playing</b> the match is used."
+  },
+  "2hg": {
+    "tournament": "Tournament Rules",
+    "tournament1": "Built 2 decks with 8 (12 in Pre-releases) boosters.",
+    "tournament2": "Listing: 20 min; Construction: 60 min.",
+    "tournament3": "A match is only1 game (if a tie results, play another game).",
+    "tournament4": "End of round: 3 additional turns.",
+    "2hgrules": "Specific 2HG Rules",
+    "2hgrules1": "Starting team skips their first draw step.",
+    "2hgrules2": "Free mulligan, then Vancouver Mulligan (Scry 1 if less than seven cards in starting hand)",
+    "2hgrules3": "30 life shared by the team.",
+    "2hgrules4": "A team's resources (cards in hand, mana, etc.) are not shared. The players of the same team can communicate together.",
+    "combat": "Specific rules to combat",
+    "combat1": "Each creature of active team attacks the other team as a group.",
+    "combat2": "Every effect and ability referring to the «defending player» or to the «attacking player» refers to one player, chosen by the controller of the effect. Any other case applies to both players.",
+    "loss": "A team loses when:",
+    "loss1": "One of the players concedes the game.",
+    "loss2": "Its life total is 0 or less.",
+    "loss3": "It has a cumulated total of 15 poison counters.",
+    "loss4": "One of the players can’t draw because of an empty library.",
+    "other": "Other rules:",
+    "other1": "If a cost or an effect needs the life total of a player, then the life total of the team is used instead.",
+    "other2": "If an effect says that a player can’t win or lose life, this effect applies to the team."
+  },
+  "commander": {
+    "deckbuilding": "Deck Building",
+    "deckbuilding1": "1 Commander defining the allowed color identity of the 99 other cards (all different but basic lands). No sideboard. Game starts at 40 life (30 in Duel)",
+    "specific": "Specific Commander Rules",
+    "specific1": "Vancouver mulligan (Scry 1 after mulligan(s))",
+    "specific2": "Cast a Commander: mana cost + {2} for each time it was previously cast from the command zone.",
+    "specific3": "Loss: 0 life or 10 poison counter or 21 combat damage from the same Commander or trying to draw more cards than are left in the library.",
+    "specific4": "If a Commander would be put into a library, hand, graveyard or exile from anywhere, its owner may choose to move it to the command zone instead.",
+    "specific5": "Special banlist, see Commander links below.",
+    "coloridentity": "Color identity:",
+    "coloridentity1": "Color or colors of any mana symbols in the card's mana cost or rule text plus any colors defined by its characteristic-defining abilities or color indicator.",
+    "time": "Recommended time limit:",
+    "time1": "55 min",
+    "rules": "Commander Rules:",
+    "duel": "Duel Commander:"
   }
 }
