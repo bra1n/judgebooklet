@@ -2,7 +2,7 @@
   "pages": {
     "turn": "Vuoron rakenne",
     "layers": "Kerrokset, Korvaavat vaikutukset, Pelioikeus",
-    "abilities": "Loitsut, Kyvyt ja Liipaisut",
+    "abilities": "Loitsut, Kyvyt ja Laukaisut",
     "shortcuts": "Turnausoikotiet",
     "penalties": "Rangaistusohjeet",
     "jar": "Normaalitasolla tuomarointi",
@@ -71,7 +71,7 @@
     "replacements3": "Valinnat tehdään, ennen kuin korvattu tapahtuma tapahtuu.",
     "replacements4": "Jos useita korvauskaikutuksia vakuttaa samaan tapahtumaan, se pelaaja, johon korvausvaikutukset vaikuttavat, valitsee niiden järjestyksen.",
     "priority": "Pelioikeus (CR 116.3)",
-    "priority1": "Osioiden alussa, vuortoimintojen jälkeen ja mahdollisten liipaistujen kykyjen mentyä pinoon, loitsun tai kyvyn ratketessa: AP.",
+    "priority1": "Osioiden alussa, vuortoimintojen jälkeen ja mahdollisten lauenneiden kykyjen mentyä pinoon, loitsun tai kyvyn ratketessa: AP.",
     "priority2": "AP/NAP pelasi erikoistoiminnon, loitsi loitsun tai aktivoi kyvyn.: AP/NAP",
     "priority3": "Pelioikeus: Loitsi loitsu, aktivoi kyky tai suorita erikoistoiminto",
     "priority4": "Jos molemmat pelaajat luovuttavat pelioikeuden kerran, ratkaise ensimmäinen objekti pinossa, tai siirry seuraavaan osioon.",
@@ -125,7 +125,7 @@
     "effective": "2016-1-22",
     "penalty": "Rangaistus",
     "gpe": "Pelirikkeet (V - V - PT)",
-    "mt": "Ohitettu liipaisu",
+    "mt": "Ohitettu laukaisu",
     "none": "Ei mitään",
     "laec": "Ylimääräisten korttien katsominen",
     "warning": "Varoitus",
@@ -159,7 +159,7 @@
   "jar": {
     "title": "Normaalitasolla tuomarointi",
     "issues": "Yleisiä ongelmia",
-    "issues1": "<b>Ohitettu liipaisu:</b> Jos pakollinen eikä liian häiritsevä, laitetaan pinoon",
+    "issues1": "<b>Ohitettu laukaisu:</b> Jos pakollinen eikä liian häiritsevä, laitetaan pinoon",
     "issues2": "<b>Ylimääräisten korttien katsominen:</b> Sekoitetaan kirjaston tuntemattomaan osioon. Korjauksen on säilytettävä tunnettujen korttien sijainti.",
     "issues3": "<b>Ylimääräisten korttien nostaminen:</b> Jos tunnistettavissa, laitetaan takaisin paikalleen. Muutoin valitse satunnaisesti. Älä sekoita!",
     "issues4": "<b>Unohti nostaa tai hylätä kortin:</b> Se tehdään nyt.",
@@ -231,7 +231,7 @@
     "step2": "2. Rangaistus",
     "step3": "3. Korjaus jos tarvitaan",
     "fix": "Miten korjataan?",
-    "fix1": "<b>Ohitettu liipaisu:</b> Ratkaise jos oletustoiminto tai viivästetty pelialueen muutos. Muulloin vuoron sisään, laita kyky pinoon (vastustajan valinta)..",
+    "fix1": "<b>Ohitettu laukaisu:</b> Ratkaise jos oletustoiminto tai viivästetty pelialueen muutos. Muulloin vuoron sisään, laita kyky pinoon (vastustajan valinta)..",
     "fix2": "<b>Ylimääräisten korttien katsominen:</b> Sekoita kirjaston tuntemattomaan osioon",
     "fix3": "<b>Piilokorttivirhe:</b> Jos epäjärjestyksessä tehtäviä toimintoja, jatka kunnes pelitilanne on sallittu. Muulloin, palauta ylimääräiset kortit oikealle paikalleen. Jos ne menevät pakkaan, sekoita ne sinne.",
     "fix4": "<b>Pelirike:</b> Jos yksinkertainen peruutus (viimeisin toiminto) tai erityinen korjaus ei ole mahdollista, peruuta (jos se ei vahingoita pelin tilaa) tai jätä tilanne ennalleen.",
@@ -242,7 +242,7 @@
     "partial4": "Jos hyökkääjien tai torjujien järjestystä ei ole määritelty → tee se nyt",
     "upgrade": "Korotuksia:",
     "upgrade1": "<b>Piilokorttivirhe:</b> V → PT: Jos pelin aikana paljastuu, että morph-kyvyllä loitsitulla kortilla ei olekaan morph-kykyä.",
-    "upgrade2": "<b>Ohitettu liipaisu:</b> Ei mitään → V: Haitallinen laukeava kyky on ohitettu",
+    "upgrade2": "<b>Ohitettu laukaisu:</b> Ei mitään → V: Haitallinen laukeava kyky on ohitettu",
     "time": "ÄLÄ UNOHDA LISÄAIKAA"
   },
   "competitive": {
