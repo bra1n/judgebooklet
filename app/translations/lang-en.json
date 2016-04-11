@@ -106,9 +106,9 @@
   },
   "shortcuts": {
     "title": "Tournament Shortcuts (MTR 4.2)",
-    "note": "All these shortcuts are assumed to be used unless they say otherwise.",
-    "shortcut1": "<b>Go:</b> Opponent has priority until the end step.",
-    "shortcut2": "<b>Declare attackers:</b> Opponent has priority until the beginning of combat step.",
+    "note": "All these shortcuts are assumed to be used unless a player clearly says they are doing otherwise.",
+    "shortcut1": "<b>Go:</b> Passing priority until an opponent has priority in the end step.",
+    "shortcut2": "<b>Declare attackers:</b> Passing priority until an opponent has priority in the beginning of combat step.",
     "shortcut3": "<b>Priority:</b> Whenever a player adds an object to the stack, they are assumed to be passing priority unless they explicitly announce that they intend to retain it.",
     "shortcut4": "If they add a group of objects to the stack, without explicitly retaining priority, and a player wishes to take an action at a point in the middle, the actions should be reversed up to that point.",
     "shortcut5": "<b>X:</b> all mana currently available in the pool",

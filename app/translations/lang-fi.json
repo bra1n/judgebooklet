@@ -106,9 +106,9 @@
   },
   "shortcuts": {
     "title": "Turnausoikotiet (MTR 4.2)",
-    "note": "Kaikki nämä oletetaan tarkoitetuiksi, ellei toisin sanota.",
-    "shortcut1": "<b>Go/Sun:</b> Vastustajalla on pelioikeus loppuosioon asti.",
-    "shortcut2": "<b>Hyökkääjiin/Combattiin:</b> Vastustajalla on pelioikeus taistelun aloitusosioon asti.",
+    "note": "Kaikki nämä oletetaan tarkoitetuiksi, ellei pelaaja selkeästi sano tekevänsä toisin.",
+    "shortcut1": "<b>Go/Sun:</b> Luovuttaa pelioikeutta, kunnes vastustajalla on pelioikeus vuoron loppuosiossa.",
+    "shortcut2": "<b>Hyökkääjiin/Combattiin:</b> Luovuttaa pelioikeutta, kunnes vastustajalla on pelioikeus taistelun aloitusosiossa.",
     "shortcut3": "<b>Peloikeus:</b> Kun pelaaja laittaa objektin pinoon, hänen oletetaan luovuttavan pelioikeuden, ellei hän erikseen sano aikovansa pitää sitä.",
     "shortcut4": "Jos hän lisää joukon objekteja pinoon ilmoittamatta erikseen pitävänsä pelioikeuden oletetaan, että edellisten annetaan ratketa yksi kerrallaan. Jos toinen pelaaja haluaa toimia kesken tämän joukon, peruutetaan siihen.",
     "shortcut5": "<b>X:</b> kaikki käytettävissä oleva mana altaasta",
