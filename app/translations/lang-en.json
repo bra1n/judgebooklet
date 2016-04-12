@@ -122,7 +122,7 @@
   },
   "penalties": {
     "ipg": "Infraction Procedure Guide",
-    "effective": "from 22 Jan 2016",
+    "effective": "effective",
     "penalty": "Penalty",
     "gpe": "GPE - Game Play Error (W - W - GL)",
     "mt": "Missed Trigger",
