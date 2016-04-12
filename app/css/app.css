@@ -55,7 +55,7 @@ ng-include {
   background: white;
   border: 2px solid #ddd;
   box-sizing: border-box;
-  margin-top: 10px;
+  margin: 10px 0;
   display: flex;
   align-content: center;
   align-items: center;
@@ -75,6 +75,24 @@ ng-include {
 }
 
 #dialog .page > span { width: 100%;padding: 1em;font-weight: bold;text-align: center;}
+
+#dialog .print a {
+  display: inline-block;
+  margin: auto;
+  background: #ff3019;
+  background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+  background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+  background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 14pt;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 2px solid #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
 
 #booklet {
   height: 100%;
