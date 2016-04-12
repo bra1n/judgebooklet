@@ -28,7 +28,8 @@
       "en": "Englanti",
       "fi": "Suomi"
     },
-    "remove": "Poista"
+    "remove": "Poista",
+    "print": "Tulosta tämä vihkonen!"
   },
   "turn": {
     "priority": "Pelioikeus",
