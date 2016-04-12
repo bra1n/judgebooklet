@@ -28,7 +28,8 @@
       "it": "Italian",
       "en": "English"
     },
-    "remove": "Remove"
+    "remove": "Remove",
+    "print": "Print this Booklet!"
   },
   "turn": {
     "priority": "Priority",
