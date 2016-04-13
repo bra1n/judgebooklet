@@ -159,7 +159,7 @@
     "downgrade": "Downgrade Path"
   },
   "jar": {
-    "title": "JAR Judging at Regular",
+    "title": "Judging at Regular",
     "issues": "Common Issues",
     "issues1": "<b>Missed Trigger:</b> If not optional and not too disruptive, put on the stack.",
     "issues2": "<b>Looking at Extra Cards:</b> Shuffle it into the unknown portion of the library. Fix must preserve known cards' positions.",
@@ -249,7 +249,7 @@
     "time": "DON’T FORGET GIVING ADDITIONAL TIME"
   },
   "competitive": {
-    "title": "Head-Judging at REL Competitive",
+    "title": "Head-Judging at Competitive REL",
     "entry": "Entry fee?",
     "entry1": "Is there a reduction for preregistration? When do preregs have to pay? If they have to, how?",
     "entry2": "Plan to have change.",
@@ -273,7 +273,7 @@
     "prepare8": "Will there be side events organized? Prepare lands and prizes."
   },
   "competitive2": {
-    "title": "Head-Judging at REL Competitive Pt. 2",
+    "title": "Head-Judging at Competitive REL Pt. 2",
     "required": "Required",
     "required1": "PC with up to date WER",
     "required2": "Printer, great amount of paper, replacement toner, and up to date drivers",
