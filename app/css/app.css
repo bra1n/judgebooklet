@@ -544,7 +544,7 @@ h3 {
 /* Tournament Errors */
 .page-te {
   line-height: 1;
-  font-size: 90%;
+  font-size: 80%;
 }
 
 .page-te ul {
@@ -552,7 +552,7 @@ h3 {
 }
 
 .page-te > ul {
-  font-size: 75%;
+  font-size: 85%;
   margin-bottom: 10px;
 }
 
@@ -589,12 +589,12 @@ h3 {
 /* GPEs */
 .page-gpe {
   line-height: 1;
-  font-size: 90%;
+  font-size: 80%;
 }
 
 .page-gpe ul {
   padding-left: 10px;
-  font-size: 75%;
+  font-size: 80%;
   margin-bottom: 10px;
 }
 
