@@ -17,7 +17,7 @@
   </div>
 </div>
 
-<ul id="booklet">
+<ul id="booklet" ng-class="language">
   <li ng-repeat="page in pageNumbers" ng-drop="true" ng-drop-success="pageDrop($data, page)" ng-drag="!!pages[page]"
       ng-drag-success="pageDrag($data, page)" ng-drag-data="pages[page]" ng-class="{draggable:!!pages[page]}">
     <ng-include src="'views/'+pages[page]+'.html'" ng-class="'page-'+pages[page]" ng-if="pages[page]"></ng-include>
