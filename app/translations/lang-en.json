@@ -226,7 +226,7 @@
     "rounds": "Rds"
   },
   "gpe": {
-    "title": "Handle GPEs",
+    "title": "Handling GPEs",
     "upgradepath": "Within a day, 3rd Warning of the same infraction is upgraded to a GL.",
     "steps": "Steps",
     "step1": "1. Infraction",
