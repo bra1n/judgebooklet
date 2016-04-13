@@ -123,7 +123,7 @@
   },
   "penalties": {
     "ipg": "Guide des Infractions et Procédures",
-    "effective": "4 Avril 2016",
+    "effective": "effective",
     "penalty": "Pénalité",
     "gpe": "GPE - Game Play Error (W - W - GL)",
     "mt": "Missed Trigger",
@@ -235,7 +235,8 @@
     "fix1": "<b>Missed Trigger:</b> Résoudre si action par défaut ou changement de zone retardé. Sinon, si moins d'un tour, mettre la capacité sur la pile (choix de l'adversaire).",
     "fix2": "<b>Looking at Extra Cards:</b> Mélanger la partie aléatoire du deck.",
     "fix3": "<b>Hidden Card Error:</b> Simple backup autorisé. Révélez l'ensemble des cartes concernées si possible (sinon, pas de fix). L'adversaire en choisit le nombre en excès. Traitez ces cartes comme si elles étaient le choix du joueur si besoin, ou mettez-les de côté jusqu'au moment approprié si OoOS. Sinon, renvoyez-les au bon endroit (et mélangez si c'est dans la bibliothèque.",
-    "fix4": "<b>Game Rule Violation:</b> Si pas de back-up simple (dernière action) ou réparation spéciale possible (comme décrit), alors faîtes un back-up (si cela n'endommage pas l'état du jeu !) sinon laisser en l'état actuel.",
+    "fix4": "<b>Mulligan Procedure Error:</b> Player either reveals hand and has opponent shuffle excess cards into their library, or mulligans again.",
+    "fix5": "<b>Game Rule Violation:</b> Si pas de back-up simple (dernière action) ou réparation spéciale possible (comme décrit), alors faîtes un back-up (si cela n'endommage pas l'état du jeu !) sinon laisser en l'état actuel.",
     "partial": "Réparation partielles autorisées pour les GRVs",
     "partial1": "Choix illégal pour une capacité statique → L'action est faite immédiatement.",
     "partial2": "Oubli de piocher, défausser, renvoyer des cartes de sa main à une autre zone → L'action est faite immédiatement.",
