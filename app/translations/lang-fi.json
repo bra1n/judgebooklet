@@ -235,7 +235,7 @@
     "fix": "Miten korjataan?",
     "fix1": "<b>Ohitettu laukaisu:</b> Ratkaise jos oletustoiminto tai viivästetty pelialueen muutos. Muulloin vuoron sisään, laita kyky pinoon (vastustajan valinta)..",
     "fix2": "<b>Ylimääräisten korttien katsominen:</b> Sekoita kirjaston tuntemattomaan osioon",
-    "fix3": "<b>Piilokorttivirhe:</b> Jos epäjärjestyksessä tehtäviä toimintoja, jatka kunnes pelitilanne on sallittu. Muulloin, palauta ylimääräiset kortit oikealle paikalleen. Jos ne menevät pakkaan, sekoita ne sinne.",
+    "fix3": "<b>Piilokorttivirhe:</b> Yksinkertainen peruutus on sallittu. Paljasta virheellinen joukko, jos mahdollista. (muulloin, ei korjausta) Vastustaja valitsee ylimääräiset kortit. Kohtele valintaa kuin pelaajan tekemää jos tarvetta, tai aseta kortit sivuun kunnes tilanne on laillinen, jos tapahtumia oli epäjärjestyksessä. Muulloin, palauta ne oikealle paikalleen. Sekoita, jos kirjastoon.",
     "fix4": "<b>Mulligointivirhe</b>: Pelaaja joko paljastaa kätensä ja antaa vastustajan sekoittaa ylimääräiset kortit pakkaansa, tai mulligoi uudelleen.",
     "fix5": "<b>Pelirike:</b> Jos yksinkertainen peruutus (viimeisin toiminto) tai erityinen korjaus ei ole mahdollista, peruuta (jos se ei vahingoita pelin tilaa) tai jätä tilanne ennalleen.",
     "partial": "Pelirikkeille sallitut osittaiset korjaukset",
