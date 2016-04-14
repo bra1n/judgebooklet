@@ -61,8 +61,8 @@ ng-include {
   border: 2px solid #ddd;
   box-sizing: border-box;
   display: flex;
-  align-content: center;
-  align-items: center;
+  /* align-content: center; */
+  /* align-items: center; */
   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
   text-align: left;
   overflow: hidden;
@@ -126,7 +126,7 @@ ng-include {
   flex-grow: 0;
   flex-shrink: 0;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   background: white;
   overflow: hidden;
   position: relative;

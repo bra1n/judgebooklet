@@ -38,5 +38,10 @@
 <i class="fa fa-file-o"></i> <b translate="layers.documents"></b> <a>http://blogs.magicjudges.org/translatedrules</a>
 
 <h1 translate="layers.ask"></h1>
-<i class="fa fa-link"></i> <a>http://chat.magicjudges.org/mtgrules/</a><br>
-<i class="fa fa-link"></i> <a>https://www.facebook.com/groups/MTGAskTheJudge/</a>
+<div ng-if="language != 'fr'">
+  <i class="fa fa-link"></i> <a>http://chat.magicjudges.org/mtgrules/</a><br>
+  <i class="fa fa-link"></i> <a>https://www.facebook.com/groups/MTGAskTheJudge/</a>
+</div>
+<div ng-if="language == 'fr'">
+  <i class="fa fa-link"></i> <a>https://www.facebook.com/Reglesmagicfrance/</a>
+</div>
