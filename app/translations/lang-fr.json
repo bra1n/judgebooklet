@@ -123,7 +123,7 @@
   },
   "penalties": {
     "ipg": "Guide des Infractions et Procédures",
-    "effective": "effectif",
+    "effective": "",
     "penalty": "Penalité",
     "gpe": "GPE - Game Play Error (W - W - GL)",
     "mt": "Missed Trigger",
@@ -305,7 +305,7 @@
     "swap3": "A liste les cartes de B et réciproquement.",
     "swap4": "Les joueurs rendent cartes et liste. Début de la construction.",
     "pairings": "Appariements en élimination directe",
-    "pairings1": "Draft: places aléatoires. En draft, places aléatoires, puis: 1/8 vs 4/5 et 2/7 vs 3/6.",
+    "pairings1": "En construit, utilisez le classement: 1/8 vs 4/5 et 2/7 vs 3/9. En draft, places aléatoires, puis:",
     "pairings2": "Le joueur avec le meilleur classement décide s’il commence ou non.",
     "suddendeath": "Mort subite",
     "suddendeath1": "Dans la portion d’un tournoi avec élimination directe:",
@@ -313,8 +313,8 @@
     "suddendeath3": "Si égalité, le joueur avec le plus haut total de points de vie gagne.",
     "suddendeath4": "Si même total, le premier à avoir plus de vie que l’autre gagne.",
     "drawing": "Égalité intentionnelle/concession légale",
-    "drawing1": "Decisions <b>prises librement par les deux joueurs,</b> sans contrainte ;",
-    "drawing2": "<b>Aucune contrepartie</b> proposée en échange d’une concession/égalité ;",
+    "drawing1": "Decisions <b>prises librement par les deux joueurs,</b> sans contrainte;",
+    "drawing2": "<b>Aucune contrepartie</b> proposée en échange d’une concession/égalité;",
     "drawing3": "<b>Aucune autre méthode que jouer</b>le match en cours n’a été utilisée."
   },
   "2hg": {
@@ -421,7 +421,7 @@
     "golden8": "Restez près de votre équipe.",
     "golden9": "Prenez des notes.",
     "golden10": "Regardez l’état de la partie.",
-    "golden11": "Ne vous précipitez pas pour donner un ruling.",
+    "golden11": "Ne vous précipitez pas pour donner <br> un ruling.",
     "golden12": "Attention au coaching!",
     "golden13": "Y-a-t-il eu des pénalités avant ?",
     "golden14": "Proposez l’appeal si nécessaire.",
