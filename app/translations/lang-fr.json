@@ -305,7 +305,7 @@
     "swap3": "A liste les cartes de B et réciproquement.",
     "swap4": "Les joueurs rendent cartes et liste. Début de la construction.",
     "pairings": "Appariements en élimination directe",
-    "pairings1": "En construit, utilisez le classement: 1/8 vs 4/5 et 2/7 vs 3/9. En draft, places aléatoires, puis:",
+    "pairings1": "En construit, utilisez le classement de la dernière ronde. En draft, places aléatoires numérotées de 1 à 8. Pairings:",
     "pairings2": "Le joueur avec le meilleur classement décide s’il commence ou non.",
     "suddendeath": "Mort subite",
     "suddendeath1": "Dans la portion d’un tournoi avec élimination directe:",
