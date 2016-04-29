@@ -101,9 +101,10 @@
     "trigger2": "Then in turn order, Non-Active Players do the same.",
     "trigger3": "Resolution in order ''last in, first out''.",
     "mana": "Mana Abilities (CR 605)",
-    "mana1": "Activated / Triggered ability that adds mana and does not target",
-    "mana2": "Does not use the stack (can't be responded to)",
-    "mana3": "To activate: have priority, when a spell is cast or an ability is activated or when an effect asks to pay a mana cost"
+    "mana1": "Activated / Triggered ability that adds mana and does not target.",
+    "mana2": "Does not use the stack (can't be responded to).",
+    "mana3": "To activate: have priority, when a spell is cast or an ability is activated or when an effect asks to pay a mana cost."
+    "mana4": "Loyalty abilities are not mana abilities."
   },
   "shortcuts": {
     "title": "Tournament Shortcuts (MTR 4.2)",
