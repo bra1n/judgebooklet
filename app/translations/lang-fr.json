@@ -103,7 +103,8 @@
     "mana": "Capacités de mana (CR 605)",
     "mana1": "Ajoute du mana et ne cible pas",
     "mana2": "Ne passe pas par la pile (on ne peut pas y répondre)",
-    "mana3": "S’active lorsqu’un joueur a la priorité, qu’un sort est lancé/une capacité activée ou qu’un effet demande de payer un coût en mana"
+    "mana3": "S’active lorsqu’un joueur a la priorité, qu’un sort est lancé/une capacité activée ou qu’un effet demande de payer un coût en mana",
+    "mana4": "Les capacités de loyauté ne sont pas des capacités de mana."
   },
   "shortcuts": {
     "title": "Raccourcis de tournoi",
