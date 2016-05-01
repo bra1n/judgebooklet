@@ -21,11 +21,11 @@
     "pages": "Available Pages",
     "select": "Select a page from the dropdown and drag it into your booklet. You can rearrange and delete pages of the booklet.",
     "languages": {
-      "fi": "Finnish",
-      "fr": "French",
-      "de": "German",
-      "es": "Spanish",
-      "it": "Italian",
+      "fi": "Suomi",
+      "fr": "Français",
+      "de": "Deutsch",
+      "es": "Español",
+      "it": "Italiano",
       "en": "English"
     },
     "remove": "Remove",
