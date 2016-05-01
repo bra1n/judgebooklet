@@ -20,14 +20,6 @@
   "dialog": {
     "pages": "Pages Disponibles",
     "select": "Selectionnez une page depuis la liste et faites la glisser dans votre livret. Vous pouvez réarranger et supprimer les diférentes pages.",
-    "languages": {
-      "fi": "Finlandais",
-      "fr": "Français",
-      "de": "Allemand",
-      "es": "Espagnol",
-      "it": "Italien",
-      "en": "Anglais"
-    },
     "remove": "Supprimer",
     "print": "Imprimez le livret!"
   },
@@ -166,7 +158,8 @@
     "issues2": "<i>Looking at Extra Cards:</i> Mélangez-la dans la partie non connue de la bibliothèque. Attention à laisser en place les cartes dont la position est connue.",
     "issues3": "<i>Drawing Extra Cards:</i> Si on peut l’identifier, remettez-la à la place adéquate. Sinon, choisissez-en une au hasard. Ne mélangez-pas la bibliothèque !",
     "issues4": "<i>Mauvaise pioche ou défausse:</i> appliquez le maintenant.",
-    "issues5": "<i>Autres Erreurs:</i> Pour les autres erreurs, effectuez un retour en arrière si cela ne perturbe pas trop la partie.",
+    "issues5": "<i>Deck Problem:</i> retirer les cartes illégales, ajouter les cartes manquantes si possible ou ajouter des terrains de base au choix du joueur sinon.",
+    "issues6": "<i>Autres Erreurs:</i> Pour les autres erreurs, effectuez un retour en arrière si cela ne perturbe pas trop la partie.",
     "unwanted": "Comportements indésirables",
     "unwanted1": "<i>Slow Play, Insufficient Shuffling, Outside Assistance, Tardiness:</i>",
     "unwanted2": "Demandez au joueur de changer de comportement;",

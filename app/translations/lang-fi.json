@@ -20,14 +20,6 @@
   "dialog": {
     "pages": "Saatavilla olevat sivut",
     "select": "Valitse sivu valikosta ja vedä se vihkoseen. Voit järjestellä ja poistaa vihkosen sivuja.",
-    "languages": {
-      "fr": "Ranska",
-      "de": "Saksa",
-      "es": "Espanja",
-      "it": "Italia",
-      "en": "Englanti",
-      "fi": "Suomi"
-    },
     "remove": "Poista",
     "print": "Tulosta tämä vihkonen!"
   },

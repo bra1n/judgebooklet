@@ -22,7 +22,7 @@ angular.module 'judgebooklet.controller', []
   $scope.pages = ["turn", "layers", "abilities", "shortcuts", "penalties", "jar", "te", "announcements"]
   $scope.lastDrag = false
   $scope.language = $translate.use() or "en"
-  $scope.languages = ["de", "en", "es", "fi", "fr", "it"]
+  $scope.languages = ["en", "fi", "fr"]
 
   $scope.changeLanguage = ->
     $translate.use $scope.language
