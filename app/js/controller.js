@@ -7,7 +7,7 @@
       $scope.pages = ["turn", "layers", "abilities", "shortcuts", "penalties", "jar", "te", "announcements"];
       $scope.lastDrag = false;
       $scope.language = $translate.use() || "en";
-      $scope.languages = ["en", "fi", "fr"];
+      $scope.languages = ["en", "fr", "fi"];
       $scope.changeLanguage = function() {
         return $translate.use($scope.language);
       };
