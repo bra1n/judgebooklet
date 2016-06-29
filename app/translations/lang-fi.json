@@ -95,7 +95,8 @@
     "mana": "Manakyvyt (CR 605)",
     "mana1": "Aktivoitava tai laukeava kyky, joka tuottaa manaa ja ei kohdistu.",
     "mana2": "Ei käytä pinoa (ei voi vastata)",
-    "mana3": "Aktivoidakseen: on pelioikeus, kun loitsua loitsitaan tai kykyä aktivoidaan tai kun vaikutus pyytää maksamaan manahinnan"
+    "mana3": "Aktivoidakseen: on pelioikeus, kun loitsua loitsitaan tai kykyä aktivoidaan tai kun vaikutus pyytää maksamaan manahinnan",
+    "mana4": "Uskollisuuskyvyt eivät ole manakykyjä."
   },
   "shortcuts": {
     "title": "Turnausoikotiet (MTR 4.2)",
