@@ -1,3 +1,3 @@
 # Judge Booklet Generator
 
-http://booklet.magicjudges.org/app/
+http://booklet.magicjudges.org/
